@@ -1,7 +1,12 @@
 aid: zervant
 name: Zervant
-description: 'Zervant is a company surfaced as a portfolio company of northzone and added to the API Evangelist
-  network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Zervant is an online invoicing and billing platform for freelancers, sole
+  traders, and small businesses. It lets users create, send, and manage estimates and
+  invoices online, automate recurring invoices and payment reminders, track time and
+  expenses, and get paid online across free and paid subscription tiers. Founded in
+  Espoo, Finland and now part of the Ageras group, Zervant is a Northzone portfolio
+  company. No public developer API is currently documented — this profile captures the
+  company identity and a domain-security probe.'
 url: https://raw.githubusercontent.com/api-evangelist/zervant/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +14,30 @@ x-backed-by:
 - northzone
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.zervant.com/favicon.ico
 tags:
 - Company
 - Fintech
+- Invoicing
+- Billing
+- Accounting
+- Estimates
+- Small Business
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +46,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://zervant.com
+  url: https://www.zervant.com
+- type: Documentation
+  url: https://support.zervant.com/hc/en-gb
+- type: Support
+  url: https://support.zervant.com/hc/en-gb
+- type: Blog
+  url: https://www.zervant.com/en/blog/
+- type: Pricing
+  url: https://www.zervant.com/en/pricing/
+- type: SignUp
+  url: https://secure.zervant.com/login/signup/en
+- type: Login
+  url: https://secure.zervant.com/login/login/en
+- type: TermsOfService
+  url: https://shine.co/en/legal/terms
+- type: PrivacyPolicy
+  url: https://shine.co/en/legal/privacy
+- type: DomainSecurity
+  url: security/zervant-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
